@@ -13,6 +13,19 @@ def calculator():
              print("Exiting calculator...")
              break
 
+         num1 = float(input("Enter the first number: "))
+         num2 = float(input("Enter the second number: "))
+
+         if option == '1':
+             print("The result of the addition is:", num1+num2)
+         elif option == '2':
+             print("The result of the subtraction is:", num1-num2)
+         elif option == '3':
+             print("The result of the multiplication is:", num1*num2)
+         elif option == '4':
+             print("The result of division is:", num1/num2)
+         else:
+             print("Invalid option. Please select a valid option.")
+
+
 calculator()
-
-
